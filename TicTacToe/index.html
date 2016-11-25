@@ -1,0 +1,54 @@
+<!--
+ 
+  Magic Square definition: https://en.wikipedia.org/wiki/Magic_square
+  Getting All Possible Combinations: https://www.ibm.com/developerworks/community/blogs/hazem/entry/javascript_getting_all_possible_combinations?lang=en
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Zawadzki, http://danielzawadzki.com">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="wrapper fadeIn">
+      <div id="content">
+        <!-- Footer -->
+        <h2>Tic Tac Toe</h2>
+
+        <!-- Game -->
+        <table class="gameArea">
+            <tbody>
+                <tr onclick="game(event)">
+                    <td data-value="8"></td>
+                    <td data-value="1"></td>
+                    <td data-value="6"></td>
+                </tr>
+                <tr onclick="game(event)">
+                    <td data-value="3"></td>
+                    <td data-value="5"></td>
+                    <td data-value="7"></td>
+                </tr>
+                <tr onclick="game(event)">
+                    <td data-value="4"></td>
+                    <td data-value="9"></td>
+                    <td data-value="2"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer -->
+        <div id="footer">
+            Daniel Zawadzki, s9482
+        </div>
+
+      </div>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>

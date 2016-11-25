@@ -1,0 +1,174 @@
+
+/* STYLES RESET */
+
+.clear-user-agent-styles table,
+.clear-user-agent-styles thead,
+.clear-user-agent-styles tbody,
+.clear-user-agent-styles tfoot,
+.clear-user-agent-styles tr,
+.clear-user-agent-styles th,
+.clear-user-agent-styles td {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-color: inherit;
+    vertical-align: inherit;
+    text-align: left;
+    font-weight: inherit;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+th, td {
+    display: inline;
+}
+
+
+
+/* BASIC */
+
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  display:inline-block;
+  margin: 0px 8px 10px 8px; 
+  color: #1a1a1a;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 40px;
+}
+
+#content {
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer {
+  padding-top: 10px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+
+
+/* ROWS */
+
+table.gameArea {
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table.gameArea td {
+  background-color: rgba(0, 0, 0, 0.05);
+  min-width: 31%;
+  min-height: 130px;
+  display: inline-block;
+  margin: 4px;
+  -webkit-transition: all 1000ms ease-in-out;
+  -moz-transition: all 1000ms ease-in-out;
+  -ms-transition: all 1000ms ease-in-out;
+  -o-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+table.gameArea td:hover {
+  background-color: #d9d9d9;
+  -webkit-box-shadow: 0 15px 20px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0.1);
+  -moz-transform: scale(1.13);
+  -webkit-transform: scale(1.13);
+  -o-transform: scale(1.13);
+  -ms-transform: scale(1.13);
+  transform: scale(1.13);
+}
+
+.x {
+  background-image: url("x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: all 1000ms ease-in-out;
+  -moz-transition: all 1000ms ease-in-out;
+  -ms-transition: all 1000ms ease-in-out;
+  -o-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.o {
+  background-image: url("o.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: all 1000ms ease-in-out;
+  -moz-transition: all 1000ms ease-in-out;
+  -ms-transition: all 1000ms ease-in-out;
+  -o-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+} 
+
+* {
+  box-sizing: border-box;
+}

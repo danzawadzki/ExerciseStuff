@@ -1,0 +1,128 @@
+/* BASIC */
+
+html {
+   background: #f0f4f5;
+}
+
+body {
+   height: 100vh;
+   color: #959da6;
+   font-family: 'Roboto', sans-serif;
+   line-height: 165%;
+   font-size: 1em;
+}
+
+h1 {
+   color: #1a1a1a;
+   font-size: 1.75em;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   margin-top: 0;
+   line-height: 130%;
+}
+
+a {
+   color: #cc2929;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 400;
+}
+
+
+/* STRUCTURE */
+
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 1170px;
+   margin: auto auto;
+   min-height: 100%;
+}
+
+.singleArticle {
+   -webkit-transition: all 500ms ease-in-out;
+   -moz-transition: all 500ms ease-in-out;
+   -ms-transition: all 500ms ease-in-out;
+   -o-transition: all 500ms ease-in-out;
+   transition: all 500ms ease-in-out;
+   background: #fff;
+   width: 430px;
+   display: inline-block;
+   margin: 15px;
+   -webkit-transform: scale(1);
+   transform: scale(1);
+}
+
+.singleArticle:hover {
+   box-shadow: 0 10px 20px 5px rgba(1, 1, 1, 0.1);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: box-shadow 300ms, transform 300ms;
+   z-index: 1;
+}
+
+.singleArticle .cover {
+   background: #ccc url("") center/cover no-repeat;
+   color: white;
+   height: 250px;
+}
+
+.singleArticle:nth-child(1) .cover {
+   background-image: url("http://www.fatbmx.com/uploads4/2014Q1/viki1.jpg");
+}
+
+.singleArticle:nth-child(2) .cover {
+   background-image: url("http://www.surfermag.com/wp-content/uploads/2015/12/DecodingStyle_5.jpg");
+}
+
+.singleArticle:nth-child(3) .cover {
+   background-image: url("https://everskate.com/wp-content/uploads/2015/07/skateboarding-health-benefits.jpg");
+}
+
+.singleArticle .content {
+   padding: 30px;
+   background: #ffffff;
+   -webkit-box-shadow: 0 2px 1px 1px rgba(1, 1, 1, 0.05);
+   box-shadow: 0 2px 1px 1px rgba(1, 1, 1, 0.05);
+}
+
+.singleArticle .postMeta {
+   font-size: 0.8em;
+}
+
+.singleArticle .postMeta .comments {
+   margin-left: 10px;
+}
+
+.singleArticle .cover .category {
+   position: absolute;
+   padding: 3px 10px;
+   margin: 20px;
+   color: #fff;
+   background-color: #cc2929;
+   text-transform: uppercase;
+   font-size: 0.75em;
+   -webkit-transition: all 500ms ease-in-out;
+   -moz-transition: all 500ms ease-in-out;
+   -ms-transition: all 500ms ease-in-out;
+   -o-transition: all 500ms ease-in-out;
+   transition: all 500ms ease-in-out;
+}
+
+.singleArticle .cover .category:hover {
+   background-color: #f23030;
+}
+
+
+/* OTHERS */
+
+*:focus {
+   outline: none;
+}
+
+* {
+   box-sizing: border-box;
+}

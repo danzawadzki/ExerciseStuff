@@ -1,0 +1,100 @@
+/* Varibles ===========*/
+
+//Basic
+$body-background:		url("../../img/body_texture.jpg") repeat center center;
+$heading-highlight:		#ebbd03;
+
+//Links
+$link-underline-color:	1px solid $brand-primary;
+
+
+
+
+$alt-heading-font: 		'Against', sans-serif; 
+
+//Nav
+$cover-background: 		url('../../img/cover-background.jpg') center bottom no-repeat;
+$nav-font-size: 		.9rem;
+$nav-letter-spacing: 	2px;
+$nav-font-weight: 		500;
+$nav-line-height: 		2rem;
+$responsive-nav-bg:		rgba(0,0,0,0.7);
+$responsive-nav-radius:	2rem;
+$responsive-nav-padding:1.5rem;
+$responsive-nav-border:	rgba(255, 255, 255, 0.1) 1px solid;
+
+//Footer
+$social-icons-size: 	2rem;
+$footer-background: 	url('../../img/footer-background.jpg') center bottom repeat-x;
+
+//Button
+$btn-font-size: 		$font-size-base * 0.75;
+$btn-disabled-bg: 		rgba(255,255,255,0.2);
+$btn-disabled-hover-bg: rgba(255,255,255,0.25);
+
+/* Basic =============*/
+
+body {
+	background: $body-background;
+}
+
+a {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: .85rem;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		border-bottom: $link-underline-color;
+		transition: 0.5s;
+	}
+
+	&:hover:after{
+		width: 100%;
+	}
+}
+
+
+
+/* Others ===========*/
+button:focus {
+	outline:0 !important;
+}
+
+.highlight {
+	color: $heading-highlight;
+}
+
+
+// Extra small devices (portrait phones, less than 544px)
+@media (max-width: 543px) { 
+
+}
+
+// Small devices (landscape phones, 544px and up)
+@media (min-width: 544px) and (max-width: 767px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	
+}
+
+
+

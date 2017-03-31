@@ -114,7 +114,7 @@ table.gameArea td:hover {
 }
 
 .x {
-  background-image: url("x.png");
+  background-image: url("img/x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -126,7 +126,7 @@ table.gameArea td:hover {
 }
 
 .o {
-  background-image: url("o.png");
+  background-image: url("img/o.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

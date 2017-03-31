@@ -14,7 +14,7 @@ https://www.ibm.com/developerworks/community/blogs/hazem
 
 
 ## Social profiles:
-http://danielzawadzki.com/
-https://twitter.com/danzawadzki7
-https://codepen.io/danzawadzki/
-https://www.linkedin.com/in/danzawadzki/
+Portfolio: [danielzawadzki.com](http://danielzawadzki.com/)
+Twitter: [@danzawadzki9](https://twitter.com/danzawadzki7)
+Codepen: [@danzawadzki](https://codepen.io/danzawadzki/)
+Linkedin: [@danzawadzki](https://www.linkedin.com/in/danzawadzki/)

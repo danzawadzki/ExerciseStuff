@@ -1,8 +1,8 @@
-# Learning exercises by Daniel Zawadzki
+# Minimal Todo App - Jquery by Daniel Zawadzki
 http://danielzawadzki.com | @danzawadzki
 Free for personal and commercial use under the CCA 3.0 license.
 
-All the smaller tasks that I do as part of learning new things. I invite to visit my codepen profile, where I publish more often.
+My first attempt to explore jQuery. The project created using HTML5, CSS3, jQuery, SASS, Normalize.js, Autoprefixer. A simple application running on the same scheme as thousands of existing applications with a list of tasks to do.
 
 
 ## Social profiles:

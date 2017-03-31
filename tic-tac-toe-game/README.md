@@ -11,3 +11,10 @@ https://en.wikipedia.org/wiki/Magic_square
 
 ### Getting All Possible Combinations:
 https://www.ibm.com/developerworks/community/blogs/hazem
+
+
+## Social profiles:
+http://danielzawadzki.com/
+https://twitter.com/danzawadzki7
+https://codepen.io/danzawadzki/
+https://www.linkedin.com/in/danzawadzki/

@@ -84,7 +84,7 @@ body {
         z-index: 20;
         box-shadow: 0 20px 30px 0 rgba(1, 1, 1, 0.2); }
         #tasks #tasksList li:hover .delete {
-          right: -37px;
+          right: -38px;
           color: white; }
       #tasks #tasksList li .delete {
         transition: all 0.30s ease-in-out;
@@ -93,7 +93,7 @@ body {
         background: none;
         border: none;
         outline: 0;
-        line-height: .85rem;
+        line-height: 1.5rem;
         font-size: 1rem; }
         #tasks #tasksList li .delete:hover {
           opacity: .75; }

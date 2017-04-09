@@ -1,0 +1,9 @@
+[
+	{"name":"Anna", "surname":"Erickson", "age":12, "location": "Paris"},
+	{"name":"Damian", "surname":"Bains", "age":44, "location": "London"},
+	{"name":"Veronica", "surname":"Ferdinand", "age":26, "location": "Moscow"},
+	{"name":"Eliza", "surname":"Stones", "age":30, "location": "Kiev"},
+	{"name":"Joe", "surname":"Ake", "age":19, "location": "Warsaw"},
+	{"name":"Alex", "surname":"Sanchez", "age":51, "location": "Brussel"},
+	{"name":"Ashton", "surname":"Defoe", "age":49, "location": "Barcelona"}
+]

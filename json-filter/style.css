@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.container {
+	width: 800px;
+}
+
+.table {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+.table tr {
+	width: 100%;
+	display: flex;
+}
+
+.table th,
+.table td {
+	border: 1px solid gray;
+	text-align: left;
+	flex-basis: 25%;
+}
